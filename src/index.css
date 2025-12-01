@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Add your custom styles below */
+
+.black-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
