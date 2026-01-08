@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import Card from './Card';
 
 function Restaurant() {
     const [slide, setSlide] = useState(0);
@@ -33,6 +34,9 @@ function Restaurant() {
               </div>
             <div className="w-[30px] h-[30px] bg-gray-400 rounded-full cursor-pointer" onClick={nextSlide}><FaArrowRight className='m-1.5'/></div>
           </div>
+            </div>
+            <div className='flex gap-5 overflow-hidden'>
+              <Card restaurant={restaurant} slide={slide}/>
             </div>
     </div>
   )

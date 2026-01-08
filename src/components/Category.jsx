@@ -44,7 +44,7 @@ function Category() {
             categories.map((category, index)=>{
               return(
                 <div style={{transform:`translateX(-${slide * 100}%)`}} className='w-[150px] shrink-0 duration-500' key={index}>
-                <img src={`/images/${category.image}`} alt={category.path} srcSet=''/>
+                <img src={`/public/images/${category.image}`} alt={category.path} srcSet=''/>
                 
               </div>
               )

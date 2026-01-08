@@ -59,7 +59,7 @@ function Header() {
           <ImCross onClick={handleToggle} className='text-[2rem] text-[#79e8f0] absolute top-5 right-5 cursor-pointer border-2 border-amber-500 p-1 rounded-full'/>
           </div>
       </div>
-      <header className='p-3 shadow-xl'>
+      <header className='p-3 shadow-xl sticky top-0 bg-amber-50 z-10'>
      <div className='max-w-[1200px] mx-auto flex justify-between items-center'>
        <div>
           <div className='flex gap-2 items-center '>
